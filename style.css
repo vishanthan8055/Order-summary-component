@@ -1,0 +1,258 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    
+  }
+  html, body {
+    height: 100%;
+    font-size: 16px;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+/* - Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%) */
+@media(max-width:641px)
+{
+  
+*{
+    /* border: 2px solid black;
+    padding: 1rem; */
+
+}
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.container{
+    /* border: 2px solid red; */
+    margin: auto;
+    width: 70vw;
+    border-radius: 1.8rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    
+}
+h1{
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+}
+.txt p{
+    color: hsl(224, 23%, 55%);
+    padding-top: 1rem;
+    width: 90%;
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    text-align: center;
+    /* border: 2px solid red; */
+    padding: 2rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:1rem 2rem;
+    width: 90%;
+    /* border: 2px solid red; */
+    background-color: hsl(225, 100%, 94%,25%);
+    border-radius: .5rem;
+}
+.lft{
+  display: flex;
+  /* border: 2px solid red; */
+  width: 10rem;
+  /* width: 50%; */
+  justify-content: space-between;
+  /* height: 3.5rem; */
+}
+.price{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.btn{
+    /* padding: 2rem; */
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: 1rem;
+    padding-bottom: 1rem;
+}
+.btn button{
+  font-family: 'Red Hat Display', sans-serif;
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 94%);
+  font-size: 1rem;
+  padding: 1rem;
+  font-weight: 800;
+  border-radius: .7rem;
+  margin: 1rem;
+  /* box-shadow: 0px .1px 30px 1px hsl(245, 75%, 52%); */
+}
+.btn button:hover{
+  background-color: hsl(245, 75%, 52%, 70%);;
+}
+.price p {
+    color: hsl(224, 23%, 55%);
+}
+.price #clr{
+  color: hsl(223, 47%, 23%);
+  font-weight: 800;
+}
+a{
+  color: hsl(245, 75%, 52%); 
+  font-weight: 700;
+}
+a:hover{
+  color: hsl(245, 75%, 52%, 70%);
+}
+.btn a{
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+.btn a:hover{
+  color: black;
+}
+}
+
+@media(min-width:640px){
+  *{
+    /* border: 2px solid black; */
+  }
+  body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+  }
+  .container{
+    /* border: 2px solid red; */
+    margin: auto;
+    width:27rem;
+    border-radius: 1.8rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    text-align: center;
+    
+}
+h1{
+  font-size: 1.5rem;
+  color: hsl(223, 47%, 23%);
+}
+.txt p{
+  color: hsl(224, 23%, 55%);
+  padding-top: 1rem;
+  width: 90%;
+
+  /* border: 2px solid red; */
+
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* border: 2px solid red; */
+  padding: 2rem;
+}
+.list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:1rem 2rem;
+  width: 80%;
+  /* border: 2px solid red; */
+  background-color: hsl(225, 100%, 94%,25%);
+  border-radius: .5rem;
+}
+.lft{
+  display: flex;
+  /* border: 2px solid red; */
+  width: 10rem;
+  /* width: 50%; */
+  justify-content: space-between;
+  /* height: 3.5rem; */
+}
+.price{
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid red; */
+}
+
+.btn{
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  /* border: 2px solid red; */
+  margin: 1rem;
+  padding-bottom: 1rem;
+}
+.btn button{
+font-family: 'Red Hat Display', sans-serif;
+border: none;
+background-color: hsl(245, 75%, 52%);
+color: hsl(225, 100%, 94%);
+font-size: 1rem;
+padding: 1rem;
+font-weight: 800;
+border-radius: .7rem;
+margin: 1rem;
+/* box-shadow: 0px .1px 30px 1px hsl(245, 75%, 52%); */
+}
+.btn button:hover{
+background-color: hsl(245, 75%, 52%, 70%);;
+}
+.price p {
+  color: hsl(224, 23%, 55%);
+}
+.price #clr{
+color: hsl(223, 47%, 23%);
+font-weight: 800;
+}
+a{
+color: hsl(245, 75%, 52%); 
+font-weight: 700;
+}
+a:hover{
+color: hsl(245, 75%, 52%, 70%);
+}
+.btn a{
+color: hsl(224, 23%, 55%);
+text-decoration: none;
+}
+.btn a:hover{
+color: black;
+}
+}
