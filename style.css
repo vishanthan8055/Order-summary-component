@@ -42,7 +42,7 @@ body{
     background-color: hsl(225, 100%, 94%);
     display: flex;
     font-family: 'Red Hat Display', sans-serif;
-    background-image: url("images/pattern-background-desktop.svg");
+    background-image: url("images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
 }
