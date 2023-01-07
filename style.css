@@ -171,7 +171,6 @@ a:hover{
     overflow: hidden;
     text-align: center;
     height: 70%;
-    padding-bottom: 1.2rem;
 }
   .image img{
     width: 30rem;
@@ -227,7 +226,7 @@ h1{
   width: 90%;
   /* border: 2px solid red; */
   margin: 1rem;
-  padding-bottom: 1rem;
+  /* padding-bottom: 2rem; */
 }
 .btn button{
 font-family: 'Red Hat Display', sans-serif;
