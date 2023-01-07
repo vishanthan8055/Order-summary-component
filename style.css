@@ -49,7 +49,7 @@ body{
 .container{
     /* border: 2px solid red; */
     margin: auto;
-    width: 70vw;
+    width: 75vw;
     border-radius: 1.8rem;
     background-color: white;
     display: flex;
@@ -162,7 +162,7 @@ a:hover{
   .container{
     /* border: 2px solid red; */
     margin: auto;
-    width:27rem;
+    width:30rem;
     border-radius: 1.8rem;
     background-color: white;
     display: flex;
@@ -170,8 +170,11 @@ a:hover{
     align-items: center;
     overflow: hidden;
     text-align: center;
-    
+    padding-bottom: 1.2rem;
 }
+  .image img{
+    width: 30rem;
+  }
 h1{
   font-size: 1.5rem;
   color: hsl(223, 47%, 23%);
